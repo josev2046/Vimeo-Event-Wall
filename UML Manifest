@@ -1,0 +1,45 @@
+@startuml
+
+top to bottom direction
+
+node "User Device" {
+  [Browser]
+}
+
+node "Web Server" {
+  [Vimeo Server]
+}
+
+node "Network" {
+  [eCDN]
+}
+
+node "Client" {
+  [HTML Document]
+  [CSS Styles]
+  [JavaScript]
+  [Grid Layout]
+  [Video Containers]
+  [Video IDs]
+  [Iframe Elements]
+}
+
+[Browser] --> [HTML Document]
+[HTML Document] --> [CSS Styles]
+[HTML Document] --> [JavaScript]
+
+[CSS Styles] --> [Grid Layout]
+[CSS Styles] --> [Video Containers]
+
+[JavaScript] --> [Video IDs]
+[JavaScript] --> [Iframe Elements]
+
+[Browser] --> [Vimeo Server]
+[Browser] --> [eCDN]
+
+[JavaScript] --> [Vimeo Server] : Request Videos
+[Vimeo Server] --> [eCDN] : Distribute Videos
+[eCDN] --> [Iframe Elements] : Stream Cached Videos
+[Vimeo Server] --> [Iframe Elements] : Stream Videos
+
+@enduml

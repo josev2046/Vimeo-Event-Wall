@@ -1,12 +1,12 @@
 **Vimeo-Event-Wall**
 
-A web application for clients to preview multiple, concurrent Vimeo streams on an external display, supporting real-time management of up to n streams.
+A simple web application for clients to preview multiple, concurrent Vimeo streams on an external display, supporting real-time management of up to n streams.
 
 **User story:**
 As a live producer, I want to preview multiple Vimeo streams simultaneously on an external display, so that I can effectively monitor and manage these live streams in real-time, ensuring smooth production and enabling timely interventions when needed.
 
 **Context:**
-Setting up a robust system for simultaneously previewing multiple Vimeo streams involves careful planning of both hardware and network infrastructure to handle high bandwidth and processing demands. This project provides a solution leveraging Vimeo's embedding API to display multiple streams in a web application optimized for low latency and high performance.
+Setting up a robust system for simultaneously previewing multiple Vimeo streams involves careful planning of both hardware and network infrastructure to handle high bandwidth and processing demands. This project provides a simpler solution by leveraging Vimeo's embedding API to display multiple streams in a web application optimized for low latency and high performance.
 
 Currently, Vimeo clients typically can stream up to three events simultaneously, each up to 12 hours in length. For more than three concurrent streams, contractual arrangements with Vimeo are necessary. Considerations should include both upstream and downstream data consumption, implementation of eCDN for efficient network usage, and potential DVR options and security measures.
 

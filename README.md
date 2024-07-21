@@ -13,7 +13,7 @@ Currently, Vimeo clients typically can stream up to three events simultaneously,
 This rapid prototype accommodates multiple streams displayed within an array, simulating a broadcast monitoring video wall and thus facilitating real-time management and oversight of these live streams by an external team.
 
 **Approach:**
-The code sets up a web page with a 3x3 grid layout displaying Vimeo live events. Each video is embedded in an iframe within a styled container to maintain a consistent aspect ratio. The Vimeo Player API is used to control video quality and handle events like playback and quality changes. eCDN is configured on Vimeo's backend.
+The code sets up a web page with a 3x3 grid layout displaying 8 Vimeo live events. Each video is embedded in an iframe within a styled container to maintain a consistent aspect ratio. The Vimeo Player API is used to control video quality and handle events like playback and quality changes. eCDN is configured on Vimeo's backend.
 
 **UML Deployment Diagram:**
 ![image](https://github.com/user-attachments/assets/07f7f5d6-ddc6-4ed6-825d-f9922686325a)

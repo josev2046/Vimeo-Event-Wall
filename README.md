@@ -12,8 +12,8 @@ Currently, Vimeo clients typically can stream up to three events simultaneously,
 
 This project aims to create a web application that allows clients to preview multiple Vimeo streams simultaneously on an external display. The current requirement is to support the preview of n Vimeo streams, facilitating real-time management and oversight of these live streams by an external team.
 
-**Solution Proposal:**
-Below is a rapid prototype implementation of the Vimeo API in HTML, accommodating multiple streams displayed within an array, simulating a broadcast monitoring video wall.
+**Approach:**
+This is a rapid prototype implementation of the Vimeo API in HTML, accommodating multiple streams displayed within an array, simulating a broadcast monitoring video wall. The code sets up a web page with a 3x3 grid layout displaying Vimeo videos. Each video is embedded in an iframe within a styled container to maintain a consistent aspect ratio. The Vimeo Player API is used to control video quality and handle events like playback and quality changes.
 
 **UML Deployment Diagram:**
 ![image](https://github.com/user-attachments/assets/07f7f5d6-ddc6-4ed6-825d-f9922686325a)

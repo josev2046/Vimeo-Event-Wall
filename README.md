@@ -18,3 +18,9 @@ The code sets up a web page with a 3x3 grid layout displaying 8 Vimeo live event
 **UML Deployment Diagram:**
 ![image](https://github.com/user-attachments/assets/07f7f5d6-ddc6-4ed6-825d-f9922686325a)
 
+
+
+[![DOI](https://zenodo.org/badge/831154059.svg)](https://doi.org/10.5281/zenodo.15033373)
+
+
+
